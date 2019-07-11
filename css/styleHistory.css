@@ -9,12 +9,7 @@
 }
 
 
-body{
-    background-image: url('../img/fondoViano.jpg');
-    background-position: center;
-    background-size: 100% 100%;
-    background-attachment: fixed; /*scroll de la imagen*/
-}
+
 
 .menuNav{
     width: 100%;
