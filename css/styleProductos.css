@@ -9,12 +9,7 @@
 }
 
 
-body{
-    background-image: url('../img/fondoViano.jpg');
-    background-position: center;
-    background-size: 100% 100%;
-    background-attachment: fixed; /*scroll de la imagen*/
-}
+
 
 .menuNav{
     width: 100%;
@@ -73,18 +68,63 @@ El TAMAÑO SE LE CAMBIA EN EN EL CONTENEDOR (ej: .logos) */
 }
 
 .textoSection {
-    color: white;
-    padding: 15%;
+    color: rgb(2, 2, 71);
+    padding: 3%;
     height: auto;
-    padding-left: 5%; /*se corre a la derecha*/
-    font-family: 'Noto Sans', sans-serif;
-    font-size: 25px;
+    padding-left: 15%; /*se corre a la derecha*/
+    font-family: 'Oswald', sans-serif;
+    font-size: 33px;
 }
 
 .textoSection p {
-    color: navy;
+    color: rgb(2, 2, 71);
+    font-family: 'Oswald', sans-serif;
+    font-size: 47px;
     
 }
+
+.textoSection2 {
+    padding-left: 15%;
+    color: rgb(27, 27, 27);
+    width: 25%;
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+
+}
+
+.textoSection2 p {
+    padding-bottom: 1%; /* Abajo. espacio entre el contenido y el contenedor*/
+    padding-top: 3%; /* Arriba. espacio entre el contenido y el contenedor*/
+
+}
+
+.productoViano img {
+    width: 100%;
+    height: auto;
+
+}
+
+.productoViano {
+    width: 75%;
+    padding-left: 13%;
+    
+}
+
+
+.carruselViano img {
+    width: 100%;
+    height: auto;
+
+}
+
+.carruselViano {
+    width: 20%;
+    display: flex; /* Pasaron uno al lado del otro. sirve para que el contenido se pueda acomodar o estirar y por defecto en row (en fila) */
+    padding: 7%;
+    
+}
+
+
 
 
 .footer {
@@ -104,7 +144,3 @@ El TAMAÑO SE LE CAMBIA EN EN EL CONTENEDOR (ej: .logos) */
     font-size: 14px;
 
 }  
-
-
-
-

@@ -17,6 +17,8 @@
     display: flex; /*sirve para que el contenido se pueda acomodar o estirar y por defecto en row (en fila) */
     justify-content: space-evenly; /*deja un espacio entre cada items (ver en pag css-tricks.com)*/
     align-items: center; /*lo centra pero verticalmente (ver en pag css-tricks.com)*/
+    padding-top: 2%;
+    padding-bottom: 2%;
     
 }
 
@@ -36,7 +38,7 @@
     text-decoration: none; /*elimina el subrayado de los links*/
     color: white;
     font-family: 'Noto Sans', sans-serif;
-    font-size: 15px;
+    font-size: 16px;
 }
 
 /* Contenedor de imagen 
@@ -45,7 +47,7 @@ A este contenedor siempre generalmente le ponemos un width y height */
     width: 10%;
     height: 10%;
     padding-left: 5%;
-
+   
 }
 
 /* Ctrl k C para hacer comentarios. 
@@ -56,21 +58,63 @@ El TAMAÑO SE LE CAMBIA EN EN EL CONTENEDOR (ej: .logos) */
     height: auto;
 }
 
-.logo2{
+.logo2 {
     padding-right: 5%;
 }
 
-.section{
-    
+.section {
     width: 100%;
     
 }
 
-.footer{
-    background-color: navy;
-    width: 100%; 
-     
-   
+.textoSection {
+    color: rgb(2, 2, 71);
+    padding: 3%;
+    height: auto;
+    padding-left: 15%; /*se corre a la derecha*/
+    font-family: 'Oswald', sans-serif;
+    font-size: 33px;
 }
 
+.textoSection p {
+    color: rgb(2, 2, 71);
+    font-family: 'Oswald', sans-serif;
+    font-size: 53px;
+    
+}
+
+.textoSection2 {
+    padding-left: 15%;
+    color: rgb(27, 27, 27);
+    width: 25%;
+    font-family: 'Oswald', sans-serif;
+    padding-bottom: 6%; 
+    font-size: 18px;
+
+}
+
+.textoSection2 p {
+    padding-bottom: 3%; /* Abajo. espacio entre el contenido y el contenedor*/
+    padding-top: 3%; /* Arriba. espacio entre el contenido y el contenedor*/
+
+}
+
+
+.footer {
+    background-color: navy;
+    width: 100%; 
+    padding-bottom: 1%; /* Abajo. espacio entre el contenido y el contenedor*/
+    padding-top: 1%; /* Arriba. espacio entre el contenido y el contenedor*/
+     
+}
+
+.textoFooter {
+    color: white;
+    padding: 1%;
+    height: auto;
+    padding-left: 5%; /*se corre a la derecha*/
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+
+}  
 
