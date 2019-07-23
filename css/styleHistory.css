@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
 /* font-family: 'Noto Sans', sans-serif; TIPOGRAFÍA: RALEWAY */
-@import url('https://fonts.googleapis.com/css?family=Oswald:300,400&display=swap');
-/*font-family: 'Oswald', sans-serif; 2 TIPOGRAFÍAS de OSWALD REGULAR Y LIGHT  */
+@import url('https://fonts.googleapis.com/css?family=Oswald:400&display=swap');
+/*font-family: 'Oswald', sans-serif; */
+@import url('https://fonts.googleapis.com/css?family=Oswald:200&display=swap');
+/* font-family: 'Oswald', sans-serif; */
 
 *{
     padding: 0; /* espacio entre el contenido y el contenedor*/
@@ -68,7 +70,7 @@ El TAMAÑO SE LE CAMBIA EN EN EL CONTENEDOR (ej: .logos) */
 }
 
 .textoSection {
-    color: rgb(2, 2, 71);
+    color: #000769;
     padding: 3%;
     height: auto;
     padding-left: 15%; /*se corre a la derecha*/
@@ -77,17 +79,17 @@ El TAMAÑO SE LE CAMBIA EN EN EL CONTENEDOR (ej: .logos) */
 }
 
 .textoSection p {
-    color: rgb(2, 2, 71);
-    font-family: 'Oswald', sans-serif;
+    color:#000769;
     font-size: 53px;
+    font-weight: lighter;
     
 }
 
 .textoSection2 {
     padding-left: 15%;
-    color: rgb(27, 27, 27);
-    width: 25%;
-    font-family: 'Oswald', sans-serif;
+    color: rgb(43, 42, 42);
+    width: 40%;
+    font-family: 'Noto Sans';
     padding-bottom: 6%; 
     font-size: 18px;
 
@@ -96,6 +98,7 @@ El TAMAÑO SE LE CAMBIA EN EN EL CONTENEDOR (ej: .logos) */
 .textoSection2 p {
     padding-bottom: 3%; /* Abajo. espacio entre el contenido y el contenedor*/
     padding-top: 3%; /* Arriba. espacio entre el contenido y el contenedor*/
+    
 
 }
 

@@ -12,7 +12,7 @@
 
 
 body{
-    background-image: url('../img/fondoViano.jpg');
+    background-image: url('/img/fondoViano.jpg');
     background-position: center;
     background-size: 100% 100%;
     background-attachment: fixed; /*scroll de la imagen*/
@@ -85,7 +85,7 @@ El TAMAÑO SE LE CAMBIA EN EN EL CONTENEDOR (ej: .logos) */
 
 .textoSection p {
     color: navy;
-    font-size: 20px;
+    font-size: 23px;
     
 }
 
@@ -99,7 +99,7 @@ El TAMAÑO SE LE CAMBIA EN EN EL CONTENEDOR (ej: .logos) */
         height: 20%;
         padding-left: 5%;
         padding: 4%;
-        padding-left: 8%; /*se corre a la derecha*/
+        padding-left: 6%; /*se corre a la derecha*/
        
 }
 
@@ -121,7 +121,3 @@ El TAMAÑO SE LE CAMBIA EN EN EL CONTENEDOR (ej: .logos) */
     font-size: 14px;
 
 }  
-
-
-
-
