@@ -8,6 +8,7 @@
 *{
     padding: 0; /* espacio entre el contenido y el contenedor*/
     margin: 0; /* establece el margen para los cuatro lados*/
+
 }
 
 
@@ -38,6 +39,7 @@ body{
 }
 
 .botonesNav li{
+    position: relative;
     margin: 2%;
 }
 
@@ -55,7 +57,6 @@ A este contenedor siempre generalmente le ponemos un width y height */
     width: 10%;
     height: 10%;
     padding-left: 5%;
-   
 }
 
 /* Ctrl k C para hacer comentarios. 
@@ -101,7 +102,6 @@ El TAMAÑO SE LE CAMBIA EN EN EL CONTENEDOR (ej: .logos) */
         padding-left: 5%;
         padding: 4%;
         padding-left: 8%; /*se corre a la derecha*/
-       
 }
 
 
@@ -110,7 +110,6 @@ El TAMAÑO SE LE CAMBIA EN EN EL CONTENEDOR (ej: .logos) */
     width: 100%; 
     padding-bottom: 1%; /* Abajo. espacio entre el contenido y el contenedor*/
     padding-top: 1%; /* Arriba. espacio entre el contenido y el contenedor*/
-     
 }
 
 .textoFooter {
@@ -123,6 +122,32 @@ El TAMAÑO SE LE CAMBIA EN EN EL CONTENEDOR (ej: .logos) */
 
 }  
 
+.botonesNav li a:hover{
+    color: rgb(11, 235, 243);
+}
 
 
+/* Modificaciones del submenu */
+.menuNav ul{
+    list-style: none;
+}
 
+.subMenu{
+    position: absolute;
+    width: 300%;
+    background-color: navy;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+}
+
+.subMenu li a{
+    display: block;
+    padding: 10px 0px;
+    font-size: 13px;
+}
+
+.botonesNav li:hover .subMenu{
+    visibility: visible;;
+    opacity: 1;
+}

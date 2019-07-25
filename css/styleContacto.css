@@ -32,6 +32,7 @@
 }
 
 .botonesNav li{
+    position: relative;
     margin: 2%;
 }
 
@@ -211,3 +212,33 @@ button {
     font-size: 14px;
 
 } 
+
+/* hover de la botonera */
+.botonesNav li a:hover{
+    color: rgb(11, 235, 243);
+}
+
+/* Modificaciones del submenu */
+.menuNav ul{
+    list-style: none;
+}
+
+.subMenu{
+    position: absolute;
+    width: 300%;
+    background-color: navy;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+}
+
+.subMenu li a{
+    display: block;
+    padding: 10px 0px;
+    font-size: 13px;
+}
+
+.botonesNav li:hover .subMenu{
+    visibility: visible;;
+    opacity: 1;
+}
