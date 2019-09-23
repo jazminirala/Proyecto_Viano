@@ -1,55 +1,5 @@
-const btnHome = document.getElementById("botonHome");
-const btnHistoria = document.getElementById("botonHistoria");
-const btnProducto = document.getElementById("botonProducto");
-const btnRUMP = document.getElementById("botonRUMP");
-const btnINTI = document.getElementById("botonINTI");
-const btnContacto = document.getElementById("botonContacto");
-
-const sectionContenedor = document.getElementById("sectionQueCambia")
-
-
-btnHome.addEventListener("click", cambiarHome);
-btnHistoria.addEventListener("click", cambiarAHistoria);
-btnProducto.addEventListener("click", cambiarProducto);
-btnRUMP.addEventListener("click", cambiarRUMP);
-btnINTI.addEventListener("click", cambiarINTI);
-btnContacto.addEventListener("click", cambiarContacto);
-
-
-function cambiarHome() {
-    sectionContenedor.innerHTML = ""
-    sectionContenedor.style.backgroundColor = "";
-    sectionContenedor.innerHTML =
-        `
-    <div class="textoSectionHome">
-    <h1>
-      Fabricación,
-    </h1>
-    <h1>
-      Calibración y Reparación
-    </h1>
-    <h1>
-      de Medidas de Capacidad
-    </h1>
-    <p>
-      Asesoramiento de normas de calidad ISO
-    </p>
-
-    <div class="logoSection">
-      <img src="../../img/homelogoviano.png" alt="VIANO, MEDIDAS DE CAPACIDAD">
-    </div>
-
-    `
-}
-
-function cambiarAHistoria() {
-    // document.body.style.backgroundImage = ""
-    // console.log(document.body.style.backgroundImage = "")
-    sectionContenedor.innerHTML = ""
-    sectionContenedor.style.backgroundColor = "white";
-    sectionContenedor.innerHTML =
-        `
-    <div class="textoSectionHistoria">
+<!-- // HISTORIA -->
+<div class="textoSectionHistoria">
     <h2>
         Nuestra
     </h2>
@@ -73,17 +23,11 @@ function cambiarAHistoria() {
         Diseño, Sustentabilidad y desarrollo profesional de Nosotros.
     </p>
 </div>
-    `
 
-}
 
-function cambiarProducto() {
-    sectionContenedor.innerHTML = " ";
-    sectionContenedor.style.backgroundColor = "white";
+<!-- // PRODUCTOS -->
 
-    sectionContenedor.innerHTML =
-        `
-    <div class="textoSectionProductos">
+<div class="textoSectionProductos">
     <h2>
         Producto
     </h2>
@@ -107,18 +51,10 @@ function cambiarProducto() {
     <img src="../../img/3 Carrusel.jpg" alt="Producto lado derecho">
 </div>
 
-    `
-}
 
+<!-- {/* RUMP */} -->
 
-
-function cambiarRUMP() {
-    sectionContenedor.innerHTML = ""
-    sectionContenedor.style.backgroundColor = "white";
-
-    sectionContenedor.innerHTML =
-        `
-    <div class="textoSectionRUMP">
+<div class="textoSection">
     <h2>
         Inscripción RUMP 
     </h2>
@@ -126,7 +62,7 @@ function cambiarRUMP() {
         Ministerio de Producción
     </p>
 </div>
-<div class="textoSection2RUMP">
+<div class="textoSection2">
     <p>
         Viano, Medida de capacidad se encuentra
         inscripto como reparador de surtidores y como
@@ -137,51 +73,16 @@ function cambiarRUMP() {
     </p>
 
 </div>
-    `
-}
+
+<!-- ///CONTACTO -->
 
 
-function cambiarINTI() {
-    sectionContenedor.innerHTML = ""
-    sectionContenedor.style.backgroundColor = "white";
-
-    sectionContenedor.innerHTML =
-        `
-    <div class="textoSectionINTI">
-    <h2>
-        Reparador Auditado
-    </h2>
-    <p>
-        por Meteología legal INTI 
-    </p>
-</div>
-<div class="textoSection2INTI">
-    <p>
-        Viano, Medidas de Capacidad se encuentra
-        habilitado por Meteología Legal del Instituto
-        Nacional de Tecnología Industrial como
-        reparador de surtidores y medidas de
-        capacidad habiendo cumplido con la auditoría
-        del sistema de gestión de calidad y procesos
-        técnicos que establece el I.N.T.I.
-    </p>
-</div>
-    `
-}
-
-
-function cambiarContacto() {
-    sectionContenedor.innerHTML = ""
-    sectionContenedor.style.backgroundColor = "white";
-
-    sectionContenedor.innerHTML =
-        `
-    <div class="textoSectionContacto">
+<div class="textoSection">
     <h2>
         VIANO
     </h2>
 </div>
-<div class="textoSection2Contacto">
+<div class="textoSection2">
     <p>
         Dirección: Zapiola 1144
     </p>
@@ -200,6 +101,7 @@ function cambiarContacto() {
         </p>
     </div>
 </div>
+
 
 <form action="/my-handling-form-page" method="post">
     <div>
@@ -222,6 +124,25 @@ function cambiarContacto() {
         <button type="submit">Enviar</button>
     </div>
 </form>
-    `
-}
 
+<!-- INTII -->
+
+<div class="textoSectionINTI">
+    <h2>
+        Reparador Auditado
+    </h2>
+    <p>
+        por Meteología legal INTI 
+    </p>
+</div>
+<div class="textoSection2INTI">
+    <p>
+        Viano, Medidas de Capacidad se encuentra
+        habilitado por Meteología Legal del Instituto
+        Nacional de Tecnología Industrial como
+        reparador de surtidores y medidas de
+        capacidad habiendo cumplido con la auditoría
+        del sistema de gestión de calidad y procesos
+        técnicos que establece el I.N.T.I.
+    </p>
+</div>
