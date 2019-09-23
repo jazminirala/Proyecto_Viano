@@ -8,16 +8,10 @@
 *{
     padding: 0; /* espacio entre el contenido y el contenedor*/
     margin: 0; /* establece el margen para los cuatro lados*/
-
 }
 
 
-body{
-    background-image: url('../img/fondoViano.jpg');
-    background-position: center;
-    background-size: 100% 100%;
-    background-attachment: fixed; /*scroll de la imagen*/
-}
+
 
 .menuNav{
     width: 100%;
@@ -43,7 +37,6 @@ body{
     margin: 2%;
 }
 
-
 .botonesNav a{
     text-decoration: none; /*elimina el subrayado de los links*/
     color: white;
@@ -57,6 +50,7 @@ A este contenedor siempre generalmente le ponemos un width y height */
     width: 10%;
     height: 10%;
     padding-left: 5%;
+   
 }
 
 /* Ctrl k C para hacer comentarios. 
@@ -77,31 +71,37 @@ El TAMAÑO SE LE CAMBIA EN EN EL CONTENEDOR (ej: .logos) */
 }
 
 .textoSection {
-    color: white;
-    padding: 15%;
+    color: #000769;
+    padding: 3%;
     height: auto;
-    padding-left: 5%; /*se corre a la derecha*/
-    font-family: 'Noto Sans', sans-serif;
-    font-size: 22px;
+    padding-left: 15%; /*se corre a la derecha*/
+    font-family: 'Oswald', sans-serif;
+    font-size: 33px;
 }
 
 .textoSection p {
-    color: navy;
-    font-size: 20px;
+    color: #000769;
+    font-family: 'Oswald', sans-serif;
+    font-size: 53px;
+    font-weight: lighter;
+    
     
 }
 
-.logoSection img {
-    width: 100%;
-    height: auto;
+.textoSection2 {
+    padding-left: 15%;
+    color: rgb(43, 42, 42);
+    width: 45%;
+    font-family: 'Noto Sans';
+    padding-bottom: 6%; 
+    font-size: 18px;
+
 }
 
-.logoSection {
-        width: 20%;
-        height: 20%;
-        padding-left: 5%;
-        padding: 4%;
-        padding-left: 8%; /*se corre a la derecha*/
+.textoSection2 p {
+    padding-bottom: 3%; /* Abajo. espacio entre el contenido y el contenedor*/
+    padding-top: 3%; /* Arriba. espacio entre el contenido y el contenedor*/
+
 }
 
 
@@ -110,6 +110,7 @@ El TAMAÑO SE LE CAMBIA EN EN EL CONTENEDOR (ej: .logos) */
     width: 100%; 
     padding-bottom: 1%; /* Abajo. espacio entre el contenido y el contenedor*/
     padding-top: 1%; /* Arriba. espacio entre el contenido y el contenedor*/
+     
 }
 
 .textoFooter {
@@ -119,13 +120,12 @@ El TAMAÑO SE LE CAMBIA EN EN EL CONTENEDOR (ej: .logos) */
     padding-left: 5%; /*se corre a la derecha*/
     font-family: 'Noto Sans', sans-serif;
     font-size: 14px;
+}
 
-}  
-
+/* hover de la botonera */
 .botonesNav li a:hover{
     color: rgb(11, 235, 243);
 }
-
 
 /* Modificaciones del submenu */
 .menuNav ul{
