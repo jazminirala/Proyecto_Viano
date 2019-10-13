@@ -242,3 +242,12 @@ button {
     visibility: visible;;
     opacity: 1;
 }
+
+#mapa{
+      width: 600px;
+      height: 450px;
+      padding-top: 20px;
+      padding-left: 200px;
+      padding-bottom: 20px;
+       
+}
