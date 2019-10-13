@@ -1,0 +1,38 @@
+
+.section{
+    position: relative;
+   text-align: center;
+}
+
+.pantalla img{
+    width: 100%;
+}
+
+.pantalla{
+    width: 100%;
+}
+ 
+.textoSpanish{
+    position: absolute;
+    top: 60%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    text-decoration: none; /*elimina el subrayado de los links*/
+    
+}
+.textoEnglish{
+    position: absolute;
+    top: 60%;
+    left: 27%;
+    transform: translate(-50%, -50%);
+    text-decoration: none; /*elimina el subrayado de los links*/   
+    
+}
+
+.idioma{
+    text-decoration: none; /*elimina el subrayado de los links*/
+    color: gray;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 30px;
+
+}
